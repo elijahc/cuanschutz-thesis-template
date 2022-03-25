@@ -1,53 +1,17 @@
 # University of Colorado Denver | Anschutz Medical Campus Ph.D. Thesis Template
 
-[![Build Status](https://travis-ci.com/dewittpe/ucd-thesis-template.svg?branch=master)](https://travis-ci.com/dewittpe/ucd-thesis-template)
+This work is a fork of [https://github.com/dewittpe/ucd-thesis-template](https://github.com/dewittpe/ucd-thesis-template)
 
-This work is based on the `.cls` that Peter DeWitt used for his dissertation,
-and is based on the `.cls` file written by Sarah Kreidler
-github.com/dewittpe/ucd-dissertation-template.
+His original latex files are in [/latex](/latex)
 
-Two example LaTeX `.cls` files are provided.  There are nearly the same, the
-only difference is `ucdenver-dissertation.cls` is for those with one thesis
-advisor and `ucdenver-dissertation-coadvisors.cls` is for those with
-co-advisors.
+In 2020 I attempted to use his files to write my dissertation in latex, but found it hard difficult to write efficiently (let alone pass around drafts)
+I've included the [/Format-Guide.pdf](2020 format guide) in this repo but uptodate ones can be found on the [graduate school resources page](https://graduateschool.ucdenver.edu/forms-resources/resources)
+I ultimately ended up creating word template file based on this guide that conforms to the recs laid out in the format guide
 
-The `ucdDissertation.bst`, `ucdenver-dissertation.cls` and `dissertation.tex`
-are the three files, at a minimum, you'll need as a starting point for your
-dissertation.
 
-    .
-    |-- figures                               #-\
-    |   |-- a.pdf                             #--\
-    |   |-- b.pdf                             #---\
-    |   |-- c.pdf                             #----\
-    |   `-- d.pdf                             #-----\
-    |-- appendix01.tex                        #------- Contents of the dissertation
-    |-- chapter01.tex                         #-----/
-    |-- chapter02.tex                         #----/
-    |-- chapter03.tex                         #---/
-    |-- chapter04.tex                         #--/
-    |-- chapter05.tex                         #-/
-    |-- dissertation-coadvisors.pdf           # Example Output
-    |-- dissertation-coadvisors.tex           # Example parent file if you have co-advisors
-    |-- dissertation.pdf                      # Example Output
-    |-- dissertation.tex                      # Example parent file if you have one advisor
-    |-- Format-Guide.pdf                      # UCD Format Guide
-    |-- makefile                              
-    |-- newcommands.tex                       # Custom LaTeX macros
-    |-- README.md                             # _This_ file
-    |-- references.bib                        # bibtex references
-    |-- r-references.bib                      # more references
-    |-- ucdDissertation.bst                   # bibtex style file
-    |-- ucdenver-dissertation.cls             # .cls for one advisor
-    |-- ucdenver-dissertation-coadvisors.cls  # .cls for co-advisors
-    `-- usepackages.tex                       # Additional packages needed
+
 
 ## Notes
 This template is a good start, but there is no guarantee that using this
 template will produce a document passing the graduate school format review.
 You will likely need to tweak a line or two within your dissertation.  I did.
-
-A more complex design, each chapter in its own subdirectory, with its own
-makefile, can be very helpful, especially if you are using
-[knitr](https://yihui.name/knitr/) to author parts of your dissertation.  More
-details can be provided if needed.
