@@ -28,6 +28,8 @@ This TOC meets the format guidelines for a table of contents
 
 Highlight the entire table and from the references menu click `Update Table` at the far left of the toolbar to update the table with any changed/added/updated table headings and page numbers
 
+![update_table](/docx/update_table.png)
+
 ## Citations
 
 At the time I had been using the now-defunct Papers 3 standalone app
